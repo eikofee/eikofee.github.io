@@ -1,6 +1,7 @@
 body {
 	font-family: 'Verdana', sans-serif;
 	color: #171717;
+	margin: 0;
 }
 
 nav {
@@ -11,6 +12,10 @@ nav	li{
 	display: inline;
 	text-align: center;
 	
+}
+
+ul {
+	padding: 0;
 }
 
 nav li a{

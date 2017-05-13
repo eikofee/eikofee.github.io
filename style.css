@@ -2,6 +2,7 @@ body {
 	font-family: 'Verdana', sans-serif;
 	color: #171717;
 	margin: 0;
+	background-image: url("pics/background.jpg")
 }
 
 nav {
@@ -19,17 +20,25 @@ ul {
 }
 
 nav li a{
-	background-color: rgb(50, 210, 162);
+	transition: background-color 0.5s;
+	background-color: rgb(255, 152, 0);
 	padding-left: 2.5%;
 	padding-right: 2.5%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 5px;
+}
+nav li a:hover{
+	transition: background-color 0.5s;
+	background-color: #E65100;
 }
 
 a {
 	text-decoration: none;
-	color: rgb(41, 66, 196)
+	color: #E65100;
 }
 
 #footer {
@@ -42,7 +51,8 @@ a {
 #main {
 	padding: 4%;
 	margin: 2%;
-	background-color: #EEEEEE;
+	background-color: #FFF3E0;
+	border-radius: 5px;
 }
 
 #pp {
@@ -55,4 +65,6 @@ a {
 	padding-top: 2%;
 	padding-bottom: 5%;
 	padding-left: 2%;
+	font-weight: bold;
+	color: white;
 }

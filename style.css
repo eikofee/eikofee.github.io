@@ -3,7 +3,6 @@ body {
 	color: #171717;
 	margin: 0;
 	background-color: #263248;
-	font-size: 12pt;
 }
 
 nav {
@@ -40,7 +39,6 @@ nav li {
 }
 
 nav li a{
-	transition: background-color 0.25s;
 	/*background-color: #7E8AA2;*/
 	padding-left: 2.5%;
 	padding-right: 2.5%;
@@ -49,8 +47,8 @@ nav li a{
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: bold;
-	border-radius: 2px;
-	transition: color 0.25s;
+	transition: all 0.25s;
+	border-bottom: 0px solid #FF9800;
 }
 nav li a:hover{
 	transition: all 0.25s;

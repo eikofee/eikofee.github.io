@@ -3,6 +3,7 @@ body {
 	color: #171717;
 	margin: 0;
 	background-color: #263248;
+	font-size: 12pt;
 }
 
 nav {
@@ -19,13 +20,28 @@ ul {
 	padding: 0;
 }
 
+h1 {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+li {
+	margin-left: 40pt;
+	font-size: 12pt;
+}
+
 nav li {
 	margin: 0;
 }
 
 nav li a{
 	transition: background-color 0.25s;
-	background-color: #7E8AA2;
+	/*background-color: #7E8AA2;*/
 	padding-left: 2.5%;
 	padding-right: 2.5%;
 	padding-top: 1%;
@@ -34,12 +50,12 @@ nav li a{
 	color: #FFFFFF;
 	font-weight: bold;
 	border-radius: 2px;
+	transition: color 0.25s;
 }
 nav li a:hover{
-	transition: background-color 0.25s;
-	transition: color 0.25s;
-	background-color: #FF9800;
-	color: #F3FFE2;
+	transition: all 0.25s;
+	/*background-color: #FF9800;*/
+	border-bottom: 5px solid #FF9800;
 }
 
 a {

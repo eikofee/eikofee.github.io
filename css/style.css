@@ -1,0 +1,143 @@
+a, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.f-skills {
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+}
+
+.f-year {
+    max-inline-size: 6em;
+    font-style: italic;
+}
+
+img {
+    margin: 0px;
+}
+
+.header {
+    margin-bottom: 1em;
+}
+
+.logo {
+    max-width: 1em;
+    padding-right: 4px;
+    vertical-align: middle;
+}
+
+.id-contacts td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+body * {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.f-list {
+    display: flex;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+dd * {
+    line-break: normal;
+}
+
+dt, dd {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 25em;
+    max-width: 25em;
+}
+
+dd {
+    margin-inline-start: 0;
+    line-break: normal;
+    max-width: 25em;
+}
+
+dt {
+    min-width: 6em;
+    text-align: right;
+    margin-right: 10px;
+}
+
+dt p{
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.f-place {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.f-title {
+    margin-bottom: 0px;
+}
+
+.f-note {
+    margin-top: 2px;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-shrink: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    display: inline-block;
+    max-width: 40%;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+}
+
+h3:before {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #171717;
+    position: absolute;
+    bottom: 44%;
+    left: 20%
+}
+
+h3:after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #171717;
+    position: absolute;
+    bottom: 44%;
+    right: 20%
+}

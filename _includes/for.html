@@ -1,0 +1,17 @@
+<h3>
+    Formation
+</h3>
+<dl>
+    {% for formation in site.data.formations %}
+    <div class="f-list">
+    <dt>
+            <p class="f-year"> {{ formation.year }}</p>
+    </dt>
+    <dd>
+            <p class="f-title">{{ formation.title }}</p>
+            <p class="f-place">{{ formation.place }}</p>
+            <p class="f-note">{{ formation.note }}</p>
+    </dd>
+    </div>
+    {% endfor %}
+</dl>

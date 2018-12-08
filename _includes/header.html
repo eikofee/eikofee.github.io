@@ -1,0 +1,12 @@
+    <h1 class="id-name">{{ site.name }}</h1>
+    <h2 class="id-status">{{ site.status }}</h2>
+    <p class="id-intro">{{ site.intro }}</p>
+    <div class="id-contacts">
+        <table>
+            <td class="id-mail"><img class="logo" src="img/mail.svg"/><a href="mailto:{{ site.mail }}">{{ site.mail }}</a></td>
+            <td class="id-phone"><img class="logo" src="img/phone.svg"/>{{ site.phone }}</td>
+            <td class="id-github"><img class="logo" src="img/github.svg"/><a href="https://github.com/{{ site.github }}" target="_blank">{{ site.github }}</a></td>
+            <td class="id-twitter"><img class="logo" src="img/twitter.svg"/><a href="https://twitter.com/{{ site.twitter }}" target="_blank">@{{ site.twitter }}</a></td>
+        </table>
+    </div>
+

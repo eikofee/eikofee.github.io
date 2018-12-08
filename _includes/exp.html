@@ -1,0 +1,21 @@
+<h3>
+    Expériences
+</h3>
+<dl>
+    {% for e in site.data.experiences %}
+    <div class="f-list">
+    <dt>
+        <p class="f-year"> {{ e.year }}</p>
+    </dt>
+    <dd>
+        <p class="f-place"> {{ e.place }} </p>
+        <p class="f-note"> {{ e.desc }} </p>
+        <div class="f-skills">
+            {% for s in e.skills %}
+            <p class="f-skill"> {{ s }}</p>
+            {% endfor %}
+        </div>
+    </dd>
+    </div>
+    {% endfor %}
+</dl>

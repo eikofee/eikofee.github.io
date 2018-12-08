@@ -1,0 +1,20 @@
+<h3>
+    Compétences
+</h3>
+{% for t in site.data.skills %}
+<h4>
+    {{ t.category }}
+</h4>
+<dl>
+    {% for s in t.subs %}
+    <div class="f-list">
+    <dt>
+        <p class="f-type">{{ s.name }}</p>
+    </dt>
+    <dd>
+        <p class="f-note">{{ s.desc }}</p>
+    </dd>
+    </div>
+    {% endfor %}
+</dl>
+{% endfor %}

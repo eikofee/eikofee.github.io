@@ -1,0 +1,38 @@
+- category: Langages de programmation
+  subs:
+      - name: C#/.NET
+        desc: Langage de préférence et bien maîtrisé, réalisation de projets de petites et grandes tailles.
+      - name: Java
+        desc: Langage bien maîtrisé, réalisation de projets de petites et moyennes tailles.
+      - name: F#
+        desc: Grand intérêt, maîtrise des bases.
+      - name: Scala
+        desc: Grand intérêt, maîtrise des bases.
+      - name: Ocaml
+        desc: Bon intérêt, maîtrise des bases.
+      - name: C/C++
+        desc: Maîtrise correcte, réalisation de projets de petites tailles.
+      - name: Javascript
+        desc: Maîtrise correcte.
+- category: IDE
+  subs:
+      - name: Visual Studio
+        desc: Bonne maîtrise, usage sur projets personnels et professionnels.
+      - name: IntelliJ IDEA
+        desc: Maîtrise correcte, usage sur projets personnels et universitaires.
+- category: Technologies
+  subs:
+      - name: Unity
+        desc: Bon intérêt, framework bien maîtrisé, réalisation de projets de petites et moyennes tailles.
+      - name: Android (Java)
+        desc: Maîtrise correcte du framework jusqu'à sa version 23.
+      - name: Systèmes Unix
+        desc: Maîtrise correcte. Usage quotidien.
+      - name: Git
+        desc: Bonne maîtrise. Usage fréquent.
+- category: Langues vivantes
+  subs:
+      - name: Français
+        desc: Langue native.
+      - name: Anglais
+        desc: Niveau B2. Lecture, écoute et écriture quotidiennes. Note au TOEIC 2014 - 835/990.

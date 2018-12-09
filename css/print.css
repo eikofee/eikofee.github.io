@@ -1,0 +1,11 @@
+body {
+    font-size: 0.7em;
+}
+.col {
+    max-width: 45%;
+}
+
+section {
+    margin-left: 5px;
+    margin-right: 5px;
+}

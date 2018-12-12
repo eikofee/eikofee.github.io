@@ -11,7 +11,7 @@ body * {
 }
 
 p.f-skill {
-    max-width: 5em;
+    max-width: 6em;
     font-size: 0.8em;
 }
 
@@ -27,8 +27,9 @@ a, a:visited {
 
 .f-skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-style: italic;
+    text-align: center;
 }
 
 .f-year {

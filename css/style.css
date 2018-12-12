@@ -1,6 +1,11 @@
+h1 {
+    color: #496D89;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     font-size: 0.9em;
+    background-color: #F0F0F0;
 }
 
 body * {
@@ -16,12 +21,13 @@ p.f-skill {
 }
 
 h4 {
+    color: #496D89;
     position: relative;
     left: 20%;
 }
 
-a, a:visited {
-    color: black;
+a, a:visited, .id-phone {
+    color: #496D89;
     text-decoration: none;
 }
 
@@ -35,6 +41,7 @@ a, a:visited {
 }
 
 .f-year {
+    color: #496D89;
     max-inline-size: 6em;
     font-style: italic;
 }
@@ -142,6 +149,7 @@ table {
 }
 
 h3 {
+    color: #496D89;
     position: relative;
     text-align: center;
 }

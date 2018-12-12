@@ -1,5 +1,7 @@
 <head>
-    <title>{{ site.data.id.name }}</title>
+    {% for i in site.data.infos %}
+    <title>{{ i.name }}</title>
+    {% endfor %}
     <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/print.css" | prepend: site.baseurl }}" media="print">
     <link href="//fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">

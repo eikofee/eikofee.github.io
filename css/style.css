@@ -30,6 +30,8 @@ a, a:visited {
     justify-content: space-between;
     font-style: italic;
     text-align: center;
+    margin-top: 4px;
+    margin-bottom: 2px;
 }
 
 .f-year {

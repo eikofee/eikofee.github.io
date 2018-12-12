@@ -1,5 +1,5 @@
 body {
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 .col {
     max-width: 45%;
@@ -11,6 +11,6 @@ section {
 }
 
 .f-list {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 11px;
+    margin-top: 11px;
 }

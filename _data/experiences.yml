@@ -8,9 +8,9 @@
         - C
         - Python
 -
-    year: juillet - septembre 2017
+    year: juil. - sept. 2017
     place: LaBRI
-    desc: Stage de développement en laboratoire sous l'encadrement de Géraud Sénizergues sur son projet LALBLC. Implémentation de fonctions permettant de convertir des grammaires d'arbres en grammaires de mots suivant l'article de Bruno Courcelle portant sur le sujet, ainsi que de modules de transformation des grammaires schématiques en concervant leur langage engendré.
+    desc: Stage en laboratoire sous l'encadrement de Géraud Sénizergues sur son projet LALBLC. Implémentation de fonctions convertissant des grammaires d'arbres en grammaires de mots suivant l'article de Bruno Courcelle portant sur le sujet, ainsi que de modules de transformation des grammaires schématiques conservant le langage engendré.
     skills:
         - Informatique théorique
         - Grammaires formelles
@@ -18,7 +18,7 @@
 -
     year: mai - août 2016
     place: EA4T - ENSEIRB MATMECA
-    desc: Stage de développement en entreprise sur un framework de grande taille. Développement de parsers pour des données publiques à classer dans la base de données de l'entreprise. Conception et implémentation de nouvelles fonctionnalités pour le framework. Développement d'un module linguistique servant pour le framework et pour un projet en collaboration avec le LaBRI.
+    desc: Stage de développement en entreprise sur un framework de grande taille. Développement de parsers pour classer des données publiques dans une base de données noSQL. Conception et implémentation de nouvelles fonctionnalités pour le framework. Développement d'un module linguistique servant pour un projet en collaboration avec le LaBRI.
     skills:
         - C#/.NET
         - ASP .NET
@@ -27,6 +27,6 @@
 -
     year: 2011 - 2013
     place: Lycée Sud Médoc - Université de Bordeaux
-    desc: Participation à des ateliers de recherches portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans. Présentation en séminaires des recherches effectuées pendant l'année et échanges avec d'autres groupes de recherches d'autres établissements scolaires et de niveaux variables.
+    desc: Participation à des ateliers de recherches portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans. Présentation en séminaires des recherches effectuées pendant l'année et échanges avec d'autres établissements scolaires et de niveaux variables.
     skills:
         - Informatique théorique

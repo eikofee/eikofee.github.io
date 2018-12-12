@@ -30,9 +30,13 @@
         desc: Maîtrise correcte. Usage quotidien.
       - name: Git
         desc: Bonne maîtrise. Usage fréquent.
+      - name: Travis CI
+        desc: Bon intérêt sur les outils d'intégration continue en général.
 - category: Langues vivantes
   subs:
       - name: Français
         desc: Langue native.
       - name: Anglais
         desc: Niveau B2. Lecture, écoute et écriture quotidiennes. Note au TOEIC 2014 - 835/990.
+      - name: Japonais
+        desc: Niveau débutant (sub-JLPT N4). Lecture et écoute fréquente. Autodidacte.

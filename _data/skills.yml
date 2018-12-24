@@ -11,9 +11,9 @@
       - name: Ocaml
         desc: Bon intérêt, maîtrise des bases.
       - name: C/C++
-        desc: Maîtrise correcte, réalisation de projets de petites tailles.
+        desc: Maîtrisé, réalisation de projets de petites tailles.
       - name: Javascript
-        desc: Maîtrise correcte.
+        desc: Maîtrisé.
 - category: IDE
   subs:
       - name: Visual Studio

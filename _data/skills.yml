@@ -1,9 +1,9 @@
 - category: Langages de programmation
   subs:
       - name: C#/.NET
-        desc: Langage de préférence et bien maîtrisé, réalisation de projets de petites et grandes tailles.
+        desc: Langage de préférence et bien maîtrisé, réalisation de projets personnels et d'entreprise.
       - name: Java
-        desc: Langage bien maîtrisé, réalisation de projets de petites et moyennes tailles.
+        desc: Langage bien maîtrisé, réalisation de projets personnels et universitaires.
       - name: F#
         desc: Grand intérêt, maîtrise des bases.
       - name: Scala
@@ -11,7 +11,7 @@
       - name: Ocaml
         desc: Bon intérêt, maîtrise des bases.
       - name: C/C++
-        desc: Maîtrisé, réalisation de projets de petites tailles.
+        desc: Maîtrisé, réalisation de projets personnels et universitaires.
       - name: Javascript
         desc: Maîtrisé.
 - category: IDE
@@ -23,7 +23,7 @@
 - category: Technologies
   subs:
       - name: Unity
-        desc: Bon intérêt, framework bien maîtrisé, réalisation de projets de petites et moyennes tailles.
+        desc: Bon intérêt, framework bien maîtrisé, réalisation de projets personnels seul et en équipe.
       - name: Android (Java)
         desc: Maîtrise correcte du framework jusqu'à sa version 23.
       - name: Systèmes Unix

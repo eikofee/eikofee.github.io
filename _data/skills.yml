@@ -1,12 +1,10 @@
 - category: Langages de programmation
   subs:
       - name: C#/.NET
-        desc: Langage de préférence et bien maîtrisé, réalisation de projets personnels et d'entreprise.
+        desc: Langage de préférence et bien maîtrisé, réalisation de projets personnels et d'entreprise en stage.
       - name: Java
         desc: Langage bien maîtrisé, réalisation de projets personnels et universitaires.
-      - name: F#
-        desc: Grand intérêt, maîtrise des bases.
-      - name: Scala
+      - name: F# & Scala
         desc: Grand intérêt, maîtrise des bases.
       - name: Ocaml
         desc: Bon intérêt, maîtrise des bases.
@@ -14,6 +12,8 @@
         desc: Maîtrisé, réalisation de projets personnels et universitaires.
       - name: Javascript
         desc: Maîtrisé.
+      - name: Python
+        desc: Maîtrisé, confiant avec Numpy et Keras.
 - category: IDE
   subs:
       - name: Visual Studio
@@ -32,6 +32,8 @@
         desc: Bonne maîtrise. Usage fréquent.
       - name: Travis CI
         desc: Bon intérêt sur les outils d'intégration continue en général.
+      - name: Machine Learning
+        desc: Très grand intérêt, sujet de stage de recherche
 - category: Langues vivantes
   subs:
       - name: Français

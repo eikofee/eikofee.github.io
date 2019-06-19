@@ -1,0 +1,42 @@
+-
+    year: avril - aout. 2019
+    place: LaBRI
+    desc: Stage de recherche en laboratoire sous l'encadrement de David Auber sur l'élaboration de méthodes de visualisation d'activités de réseaux de neurones pour aider à leur compréhension et leur amélioration. Développement d'outils pour extraire et réinterpréter les données d'activations d'un réseau entraîné de façon locale ou distribuée, la création de graphes et calculs associés et d'interfaces graphiques adaptées à la quantité d'informations à afficher. 
+    skills:
+        - NN/CNN
+        - Big Data
+        - Spark
+        - Python
+        - Rendu graphiques
+-
+    year: 2017 - 2019
+    place: Université de Bordeaux
+    desc: Tutorat spécialisé en informatique pour assister les étudiants rencontrant des difficulté de compréhension ou d'application de cours.
+    skills:
+        - Informatique théorique
+        - Systèmes Unix
+        - C
+        - Python
+-
+    year: juil. - sept. 2017
+    place: LaBRI
+    desc: Stage en laboratoire sous l'encadrement de Géraud Sénizergues sur son projet LALBLC. Implémentation de fonctions convertissant des grammaires d'arbres en grammaires de mots suivant l'article de Bruno Courcelle portant sur le sujet, ainsi que de modules de transformation des grammaires schématiques conservant le langage engendré.
+    skills:
+        - Informatique théorique
+        - Grammaires formelles
+        - Python
+-
+    year: mai - août 2016
+    place: EA4T - ENSEIRB MATMECA
+    desc: Stage de développement en entreprise sur un framework de grande taille. Développement de parsers pour classer des données publiques dans une base de données noSQL. Conception et implémentation de nouvelles fonctionnalités pour le framework. Développement d'un module linguistique servant pour un projet en collaboration avec le LaBRI.
+    skills:
+        - C#/.NET
+        - ASP .NET
+        - Big Data
+        - NoSQL
+-
+    year: 2011 - 2013
+    place: Lycée Sud Médoc - Université de Bordeaux
+    desc: Participation à des ateliers de recherches portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans. Présentation en séminaires des recherches effectuées pendant l'année et échanges avec d'autres établissements scolaires et de niveaux variables.
+    skills:
+        - Informatique théorique

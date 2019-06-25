@@ -1,7 +1,7 @@
 -
     year: avril - août 2019
     place: LaBRI
-    desc: Stage de recherche en laboratoire, sous l'encadrement de David Auber, portant sur l'élaboration de méthodes de visualisation d'activités des réseaux de neurones pour aider à leur compréhension et leur amélioration. 
+    desc: Stage de recherche en laboratoire, sous l'encadrement de David Auber, portant sur l'élaboration de méthodes de visualisation d'activités des réseaux de neurones afin d'aider à leur compréhension et leur amélioration. 
     skills:
         - NN/CNN
         - Big Data
@@ -11,7 +11,7 @@
 -
     year: 2017 - 2019
     place: Université de Bordeaux
-    desc: Tutorat spécialisé en informatique pour assister les étudiants rencontrant des difficulté de compréhension ou d'application de cours.
+    desc: Tutorat spécialisé en informatique pour assister les étudiants rencontrant des difficultés de compréhension et/ou d'application du cours.
     skills:
         - Informatique théorique
         - Systèmes Unix
@@ -37,6 +37,6 @@
 -
     year: 2011 - 2013
     place: Lycée Sud Médoc - Université de Bordeaux
-    desc: Participation à des ateliers de recherches portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans.
+    desc: Participation à des ateliers de recherche portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans.
     skills:
         - Informatique théorique

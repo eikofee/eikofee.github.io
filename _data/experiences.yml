@@ -1,7 +1,7 @@
 -
     year: avril - août 2019
     place: LaBRI
-    desc: Stage de recherche en laboratoire, sous l'encadrement de David Auber, portant sur l'élaboration de méthodes de visualisation d'activités des réseaux de neurones afin d'aider à leur compréhension et leur amélioration. 
+    desc: Stage de recherche en laboratoire, sous l'encadrement de David Auber, portant sur l'élaboration de méthodes de visualisation d'activités des réseaux de neurones afin d'aider à leur compréhension et leur amélioration. Poursuite du sujet de recherche en thèse.
     skills:
         - NN/CNN
         - Big Data
@@ -34,9 +34,3 @@
         - ASP .NET
         - Big Data
         - NoSQL
--
-    year: 2011 - 2013
-    place: Lycée Sud Médoc - Université de Bordeaux
-    desc: Participation à des ateliers de recherche portés autour des mathématiques et de l'informatique organisés par l'association Math en Jeans.
-    skills:
-        - Informatique théorique

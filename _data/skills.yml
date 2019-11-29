@@ -32,8 +32,6 @@
         desc: Bonne maîtrise. Usage fréquent.
       - name: Travis CI
         desc: Bon intérêt sur les outils d'intégration continue en général.
-      - name: Machine Learning
-        desc: Très grand intérêt, sujet de stage de recherche
 - category: Langues vivantes
   subs:
       - name: Français

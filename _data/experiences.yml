@@ -1,9 +1,17 @@
+-   
+    year: nov. 2019 - présent
+    place LaBRI
+    desc: Thèse sur la visualisation de comportements de réseaux de neurones profonds avec pour objectif d'expliquer ses décisions, de détecter des erreurs et de les améliorer.
+    skills:
+        - DNN
+        - Big Data
+        - Visualisation
 -
     year: avril - août 2019
     place: LaBRI
     desc: Stage de recherche en laboratoire, sous l'encadrement de David Auber, portant sur l'élaboration de méthodes de visualisation d'activités des réseaux de neurones afin d'aider à leur compréhension et leur amélioration. Poursuite du sujet de recherche en thèse.
     skills:
-        - NN/CNN
+        - DNN/CNN
         - Big Data
         - Spark
         - Python

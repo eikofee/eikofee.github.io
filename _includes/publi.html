@@ -1,0 +1,17 @@
+<h3>
+    Publications
+</h3>
+<dl>
+    {% for e in site.data.publications %}
+    <div class="f-list">
+    <dt>
+        <p class="f-year"> {{ e.year }}</p>
+    </dt>
+    <dd>
+        <p class="f-place"> {{ e.title }} </p>
+        <p class="f-note"> {{ e.authors }} </p>
+        <p class="f-skills"> {{ e.place }} </p>
+    </dd>
+    </div>
+    {% endfor %}
+</dl>

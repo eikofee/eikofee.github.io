@@ -6,14 +6,14 @@
         desc: Langage bien maîtrisé, réalisation de projets personnels et universitaires.
       - name: F# & Scala
         desc: Grand intérêt, maîtrise des bases.
-      - name: Ocaml
-        desc: Bon intérêt, maîtrise des bases.
       - name: C/C++
         desc: Maîtrisé, réalisation de projets personnels et universitaires.
       - name: Javascript
         desc: Maîtrisé.
       - name: Python
         desc: Maîtrisé, confiant avec Numpy et Keras.
+      - name: Julia
+        desc: Grand intérêt et maîtrisé. 
 - category: IDE
   subs:
       - name: Visual Studio
@@ -24,8 +24,6 @@
   subs:
       - name: Unity
         desc: Bon intérêt, framework bien maîtrisé, réalisation de projets personnels seul et en équipe.
-      - name: Android (Java)
-        desc: Maîtrise correcte du framework jusqu'à sa version 23.
       - name: Systèmes Unix
         desc: Maîtrise correcte. Usage quotidien.
       - name: Git

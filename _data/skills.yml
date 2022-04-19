@@ -24,7 +24,7 @@
   subs:
       - name: Unity
         desc: Bon intérêt, framework bien maîtrisé, réalisation de projets personnels seul et en équipe.
-      - name: Systèmes Unix
+      - name: Sys. Unix
         desc: Maîtrise correcte. Usage quotidien.
       - name: Git
         desc: Bonne maîtrise. Usage fréquent.

@@ -14,12 +14,6 @@
         desc: Maîtrisé, confiant avec Numpy et Keras.
       - name: Julia
         desc: Grand intérêt et maîtrisé. 
-- category: IDE
-  subs:
-      - name: Visual Studio
-        desc: Bonne maîtrise, usage sur projets personnels et professionnels.
-      - name: IntelliJ IDEA
-        desc: Maîtrise correcte, usage sur projets personnels et universitaires.
 - category: Technologies
   subs:
       - name: Unity

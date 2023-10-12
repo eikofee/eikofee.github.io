@@ -1,4 +1,12 @@
 -   
+    year: fév. - jui. 2023
+    place: Université de Bordeaux
+    desc: Attaché Temporaire d'Enseignement et de Recherche (ATER).
+    skills:
+        - Informatique théorique
+        - Communication
+
+-   
     year: nov. 2019 - présent
     place: LaBRI
     desc: Thèse sur la visualisation de comportements de réseaux de neurones profonds avec pour objectif d'expliquer ses décisions, de détecter des erreurs et de les améliorer.

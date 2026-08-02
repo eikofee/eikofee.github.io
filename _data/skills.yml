@@ -1,7 +1,11 @@
 - category: Langages de programmation
   subs:
+      - name: Rust
+        desc: Bonne maîtrise et très grand intérêt, réalisation de projets personnels et d'entreprise.
+      - name: SQL (Postgres/DuckDB/SQLite principalement)
+        desc: Langage maîtrisé, réalisation de projets personnels et d'entreprise.
       - name: C#/.NET
-        desc: Langage de préférence et bien maîtrisé, réalisation de projets personnels et d'entreprise en stage.
+        desc: Langage maîtrisé, réalisation de projets personnels et d'entreprise en stage.
       - name: Java
         desc: Langage bien maîtrisé, réalisation de projets personnels et universitaires.
       - name: F# & Scala
@@ -24,6 +28,8 @@
         desc: Bonne maîtrise. Usage fréquent.
       - name: Travis CI
         desc: Bon intérêt sur les outils d'intégration continue en général.
+      - name: Dagster
+        desc: Familier et bon intérêt. Utilisation et modification en entreprise.
 - category: Langues vivantes
   subs:
       - name: Français

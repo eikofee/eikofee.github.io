@@ -431,6 +431,9 @@ img {
 }
 
 .contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   text-decoration: none;
   padding: 10px 18px;
   border-radius: 10px;
@@ -534,8 +537,8 @@ img {
   html,
   body {
     background: #fff;
-    font-size: 8.3pt;
-    line-height: 1.35;
+    font-size: 7.8pt;
+    line-height: 1.28;
   }
 
   .site-header,
@@ -560,21 +563,46 @@ img {
     transition: none !important;
   }
 
-  /* Header row: name, title, tagline, contact — full width, compact */
+  /* Visually move the contact strip to the top of the printed page
+     (name → contact line → two-column body) without changing the on-screen
+     DOM order, which stays contact-at-the-bottom. */
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero {
+    order: 1;
+  }
+
+  .contact-section {
+    order: 2;
+  }
+
+  #main-content {
+    order: 3;
+  }
+
+  /* Header row: name, title, tagline, contact — full width, compact.
+     Overrides the max-width:720px mobile layout, which A4 print width
+     otherwise triggers (it stacks/centers the hero and adds a big
+     padding-top meant for the on-screen mobile nav). */
   .hero {
     max-width: none;
+    flex-direction: row;
+    text-align: left;
     padding: 0 0 6pt;
-    gap: 10pt;
+    gap: 8pt;
     align-items: center;
   }
 
   .hero-avatar {
-    width: 40pt;
-    height: 40pt;
-    font-size: 13pt;
+    width: 26pt;
+    height: 26pt;
+    font-size: 9pt;
     background: none;
     color: var(--text);
-    border: 1.5pt solid var(--text);
+    border: 1pt solid var(--text);
     box-shadow: none;
   }
 
@@ -583,22 +611,23 @@ img {
   }
 
   .hero-text h1 {
-    font-size: 15pt;
+    font-size: 13pt;
     margin: 0;
   }
 
   .hero-role {
-    font-size: 9pt;
-    margin: 0 0 3pt;
+    font-size: 8pt;
+    margin: 0 0 2pt;
   }
 
   .hero-tagline {
-    font-size: 8pt;
-    margin: 0 0 4pt;
+    font-size: 7pt;
+    margin: 0 0 2pt;
   }
 
   .hero-meta {
-    font-size: 7.5pt;
+    font-size: 6.5pt;
+    justify-content: flex-start;
   }
 
   /* Two-column flow for the bulk of the content */
@@ -610,70 +639,71 @@ img {
 
   .section {
     max-width: none;
-    padding: 0 0 8pt;
-    margin-bottom: 8pt;
+    padding: 0 0 5pt;
+    margin-bottom: 5pt;
     border-top: none;
-    break-inside: avoid-column;
   }
 
   .section-header {
-    margin-bottom: 8pt;
+    margin-bottom: 4pt;
   }
 
-  .eyebrow {
-    font-size: 6.5pt;
+  /* Redundant with the h2 title right below it — drop it to save vertical space */
+  .section-header .eyebrow {
+    display: none;
   }
 
   .section-header h2 {
-    font-size: 10pt;
-    margin-top: 2pt;
+    font-size: 9.5pt;
+    margin-top: 0;
+    break-after: avoid-column;
   }
 
   .prose p {
-    font-size: 8pt;
-    margin: 0 0 6pt;
-  }
-
-  /* Timeline */
-  .timeline {
-    padding-left: 10pt;
-    border-left: 1pt solid var(--border);
-  }
-
-  .timeline-item {
-    padding-bottom: 7pt;
-    break-inside: avoid-column;
-  }
-
-  .timeline-dot {
-    left: -13.5pt;
-    top: 2pt;
-    width: 6pt;
-    height: 6pt;
-    box-shadow: none;
-  }
-
-  .timeline-period {
-    font-size: 6.5pt;
-  }
-
-  .timeline-content h3 {
-    font-size: 8.5pt;
-    margin: 2pt 0 1pt;
-  }
-
-  .timeline-org {
-    font-size: 7.5pt;
-    margin-bottom: 3pt;
-  }
-
-  .timeline-content p {
     font-size: 7.5pt;
     margin: 0 0 4pt;
   }
 
+  /* Timeline */
+  .timeline {
+    padding-left: 9pt;
+    border-left: 1pt solid var(--border);
+  }
+
+  .timeline-item {
+    padding-bottom: 4.5pt;
+    break-inside: avoid-column;
+  }
+
+  .timeline-dot {
+    left: -12.5pt;
+    top: 2pt;
+    width: 5pt;
+    height: 5pt;
+    box-shadow: none;
+  }
+
+  .timeline-period {
+    font-size: 6.2pt;
+  }
+
+  .timeline-content h3 {
+    font-size: 8pt;
+    margin: 1pt 0 1pt;
+  }
+
+  .timeline-org {
+    font-size: 7pt;
+    margin-bottom: 2pt;
+  }
+
+  .timeline-content p {
+    font-size: 7pt;
+    margin: 0 0 2.5pt;
+  }
+
   .timeline--compact .timeline-item {
-    padding-bottom: 5pt;
+    padding-bottom: 3pt;
   }
 
   /* Grids collapse to a single column within each print column */
@@ -686,33 +716,40 @@ img {
   .project-card {
     border: none;
     box-shadow: none;
-    padding: 0 0 6pt;
+    padding: 0 0 4pt;
     break-inside: avoid-column;
-    gap: 3pt;
+    gap: 2pt;
     background-image: none !important;
   }
 
   .skill-card h3,
   .project-card h3 {
-    font-size: 8.5pt;
-    margin: 0 0 3pt;
+    font-size: 8pt;
+    margin: 0 0 2pt;
   }
 
   .project-card p {
-    font-size: 7.5pt;
+    font-size: 7pt;
   }
 
   .tag {
-    font-size: 6.3pt;
-    padding: 1.5pt 5pt;
+    font-size: 6pt;
+    padding: 1pt 4pt;
     border-color: var(--border);
   }
 
-  /* Contact strip: single compact line under the two columns */
+  .skill-tag {
+    gap: 3pt;
+  }
+
+  /* Contact strip: single compact line, moved above the two-column body
+     (see the `order` rules near .hero) so it reads right under the name. */
   .contact-section {
     max-width: none;
-    padding: 6pt 0 0;
-    border-top: 1pt solid var(--border);
+    padding: 0 0 6pt;
+    margin-bottom: 6pt;
+    border-top: none;
+    border-bottom: 1pt solid var(--border);
     text-align: left;
   }
 
@@ -732,5 +769,11 @@ img {
     border: none;
     padding: 0;
     font-size: 7.5pt;
+    gap: 3pt;
+  }
+
+  .contact-links a svg {
+    width: 8pt;
+    height: 8pt;
   }
 }

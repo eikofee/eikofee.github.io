@@ -9,7 +9,7 @@
  */
 /**
  * Tooltip text for the skill-level symbols rendered in the "skills" section.
- * Levels: 3 = ★ (mastery, professional projects), 2 = ↗ (strong interest,
+ * Levels: 3 = ★ (mastery, professional projects), 2 = ☆ (strong interest,
  * personal/academic project), 1 = no symbol (light exploration).
  */
 const SKILL_LEVEL_LABELS = {
@@ -31,10 +31,13 @@ const CONTENT = {
       name: "Adrien Halnaut",
       title: "Docteur en Informatique · Ingénieur Logiciel",
       heroEyebrow: "Curriculum Vitae",
+      printLabel: "Imprimer / télécharger le CV",
+      printUnsupportedMessage: "Ce navigateur ne semble pas prendre en charge l'impression (cas connu de Brave sur mobile, par exemple). Ouvre cette page dans Chrome ou Safari pour imprimer ou enregistrer le CV en PDF.",
       tagline: "Je conçois des outils qui rendent compréhensible le complexe - des réseaux de neurones profonds aux systèmes de données.",
       email: "adrien.halnaut@proton.me",
       phone: "+33 (0)6 06 43 86 59",
       github: "https://github.com/eikofee",
+      linkedin: "https://www.linkedin.com/in/ahalnaut",
       location: "Metz, France",
       avatarInitials: "AH",
     },
@@ -54,6 +57,7 @@ const CONTENT = {
       title: "Discutons",
       subtitle: "Envie de collaborer ou juste dire bonjour ? N'hésitez pas à me contacter.",
       githubLabel: "GitHub",
+      linkedinLabel: "LinkedIn",
     },
 
     footer: {
@@ -189,7 +193,7 @@ const CONTENT = {
         type: "skills",
         title: "Compétences techniques",
         eyebrow: "Boîte à outils",
-        note: "★ maîtrise, projets professionnels · ↗ bon intérêt, projet personnel ou universitaire · sans symbole : exploration légère",
+        note: "★ maîtrise, projets professionnels · ☆ bon intérêt, projet personnel ou universitaire · sans symbole : exploration légère",
         groups: [
           {
             label: "Langages",
@@ -286,10 +290,13 @@ const CONTENT = {
       name: "Adrien Halnaut",
       title: "PhD in Computer Science - Software Engineer",
       heroEyebrow: "Resume",
+      printLabel: "Print / download résumé",
+      printUnsupportedMessage: "This browser doesn't seem to support printing (a known case on Brave for mobile, for example). Open this page in Chrome or Safari to print or save the résumé as a PDF.",
       tagline: "I build tools that make complex things understandable - from deep neural networks to data systems.",
       email: "adrien.halnaut@proton.me",
       phone: "+33 (0)6 06 43 86 59",
       github: "https://github.com/eikofee",
+      linkedin: "https://www.linkedin.com/in/ahalnaut",
       location: "Metz, France",
       avatarInitials: "AH",
     },
@@ -309,6 +316,7 @@ const CONTENT = {
       title: "Let's talk",
       subtitle: "Interested in collaborating, or just want to say hi? Feel free to reach out.",
       githubLabel: "GitHub",
+      linkedinLabel: "LinkedIn",
     },
 
     footer: {
@@ -444,7 +452,7 @@ const CONTENT = {
         type: "skills",
         title: "Technical Skills",
         eyebrow: "Toolbox",
-        note: "★ mastery, professional projects · ↗ strong interest, personal or academic project · no symbol: light exploration",
+        note: "★ mastery, professional projects · ☆ strong interest, personal or academic project · no symbol: light exploration",
         groups: [
           {
             label: "Languages",

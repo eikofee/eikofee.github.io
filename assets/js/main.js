@@ -64,7 +64,7 @@ function renderTimeline(section) {
   return wrap;
 }
 
-const SKILL_LEVEL_SYMBOL = { 3: "★", 2: "↗" };
+const SKILL_LEVEL_SYMBOL = { 3: "★", 2: "☆" };
 
 function renderSkillTag(item) {
   if (typeof item === "string") return el("span", "tag", item);
@@ -78,6 +78,20 @@ function renderSkillTag(item) {
   return tag;
 }
 
+// Filled star (level 3) first, then hollow star (level 2), then no symbol
+// (level 1) — stable, so items keep their relative order from content.js
+// within each tier.
+function sortSkillItems(items) {
+  return items
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => {
+      const levelA = typeof a.item === "object" ? a.item.level || 0 : -1;
+      const levelB = typeof b.item === "object" ? b.item.level || 0 : -1;
+      return levelB - levelA || a.index - b.index;
+    })
+    .map((entry) => entry.item);
+}
+
 function renderSkills(section) {
   const wrap = sectionShell(section);
   const grid = el("div", "skills-grid");
@@ -85,7 +99,7 @@ function renderSkills(section) {
     const card = el("div", "skill-card reveal");
     card.append(el("h3", null, group.label));
     const tagRow = el("div", "tag-row");
-    group.items.forEach((item) => tagRow.append(renderSkillTag(item)));
+    sortSkillItems(group.items).forEach((item) => tagRow.append(renderSkillTag(item)));
     card.append(tagRow);
     grid.append(card);
   });
@@ -166,7 +180,11 @@ function renderContact(data) {
   document.getElementById("contact-phone").textContent = meta.phone;
   document.getElementById("contact-phone").href = "tel:" + meta.phone.replace(/[^+\d]/g, "");
   document.getElementById("contact-github").href = meta.github;
-  document.getElementById("contact-github").textContent = contact.githubLabel;
+  document.getElementById("contact-github").setAttribute("aria-label", contact.githubLabel);
+  document.getElementById("contact-github-label").textContent = "@" + meta.github.replace(/\/+$/, "").split("/").pop();
+  document.getElementById("contact-linkedin").href = meta.linkedin;
+  document.getElementById("contact-linkedin").setAttribute("aria-label", contact.linkedinLabel);
+  document.getElementById("contact-linkedin-label").textContent = "@" + meta.linkedin.replace(/\/+$/, "").split("/").pop();
 }
 
 function renderFooter(data) {
@@ -227,6 +245,19 @@ function setupLangToggle() {
   });
 }
 
+function setupPrintButton() {
+  document.getElementById("print-btn").addEventListener("click", () => {
+    // Brave (notably on Android) exposes navigator.brave but doesn't ship a
+    // print pipeline: window.print() silently no-ops there, no error, no
+    // dialog. Warn instead of leaving the button looking broken.
+    if (navigator.brave) {
+      alert(CONTENT[currentLang].meta.printUnsupportedMessage);
+      return;
+    }
+    window.print();
+  });
+}
+
 function setupNavToggle() {
   const toggle = document.getElementById("nav-toggle");
   const nav = document.getElementById("nav-links");
@@ -241,6 +272,7 @@ function render() {
   document.documentElement.lang = currentLang;
   document.title = `${data.meta.name} — ${currentLang === "fr" ? "CV" : "Resume"}`;
   updateLangButton();
+  document.getElementById("print-btn").setAttribute("aria-label", data.meta.printLabel);
   renderNav(data);
   renderHero(data);
   renderContact(data);
@@ -252,6 +284,7 @@ function render() {
 function init() {
   setupThemeToggle();
   setupLangToggle();
+  setupPrintButton();
   setupNavToggle();
   render();
 }
